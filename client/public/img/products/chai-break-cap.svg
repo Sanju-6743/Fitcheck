@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1208"/>
+      <stop offset="100%" stop-color="#2c1e0e"/>
+    </linearGradient>
+    <filter id="n7">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#g7)"/>
+  <circle cx="330" cy="90" r="120" fill="#ffb020" opacity="0.10"/>
+  <circle cx="60" cy="420" r="90" fill="#ffb020" opacity="0.07"/>
+  <g color="#f7efe0" transform="translate(0,20)">
+    <circle cx="200" cy="280" r="95" fill="none" stroke="currentColor" stroke-width="8"/>
+    <path d="M105 280 Q200 380 295 280" fill="none" stroke="currentColor" stroke-width="8"/>
+    <circle cx="200" cy="280" r="26" fill="none" stroke="currentColor" stroke-width="6"/>
+  </g>
+  <rect x="0" y="0" width="400" height="500" filter="url(#n7)" opacity="0.5"/>
+  <rect x="24" y="24" width="112" height="30" rx="15" fill="#ffb020"/>
+  <text x="80" y="44" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="12" font-weight="900" fill="#0a0a0a" letter-spacing="1">3D STITCH</text>
+  <text x="24" y="440" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#f7efe0" letter-spacing="-0.5">CHAI BREAK</text>
+  <text x="24" y="464" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#ffb020" letter-spacing="3">EMBROIDERED CAP</text>
+  <text x="24" y="486" font-family="Arial, sans-serif" font-size="10" fill="#f7efe0" opacity="0.55" letter-spacing="4">FITCHECK INDIA · DROP 07</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#12100c"/><stop offset="100%" stop-color="#262116"/></linearGradient>
+    <filter id="n2"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#g2)"/>
+  <circle cx="70" cy="90" r="120" fill="#e8ff3a" opacity="0.10"/>
+  <circle cx="340" cy="420" r="90" fill="#e8ff3a" opacity="0.07"/>
+  <g color="#f6f3e8" transform="translate(0,20)">
+    <path d="M145 150 L255 150 L272 445 L228 445 L200 270 L172 445 L128 445 Z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
+    <line x1="145" y1="178" x2="255" y2="178" stroke="currentColor" stroke-width="5"/>
+    <rect x="152" y="198" width="32" height="40" rx="6" fill="none" stroke="currentColor" stroke-width="5"/>
+    <rect x="216" y="198" width="32" height="40" rx="6" fill="none" stroke="currentColor" stroke-width="5"/>
+    <line x1="190" y1="164" x2="210" y2="164" stroke="currentColor" stroke-width="6"/>
+  </g>
+  <rect width="400" height="500" filter="url(#n2)" opacity="0.5"/>
+  <rect x="24" y="24" width="96" height="30" rx="15" fill="#e8ff3a"/>
+  <text x="72" y="44" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="12" font-weight="900" fill="#0a0a0a">₹1500</text>
+  <text x="24" y="440" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#f6f3e8">URBAN STRIDE</text>
+  <text x="24" y="464" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#e8ff3a" letter-spacing="3">STREET PANT</text>
+  <text x="24" y="486" font-family="Arial, sans-serif" font-size="10" fill="#f6f3e8" opacity="0.55" letter-spacing="4">FITCHECK INDIA</text>
+</svg>

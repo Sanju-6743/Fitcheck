@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12100c"/>
+      <stop offset="100%" stop-color="#262116"/>
+    </linearGradient>
+    <filter id="n5">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#g5)"/>
+  <circle cx="330" cy="90" r="120" fill="#e8ff3a" opacity="0.10"/>
+  <circle cx="60" cy="420" r="90" fill="#e8ff3a" opacity="0.07"/>
+  <g color="#f6f3e8" transform="translate(0,20)">
+    <path d="M120 175 L165 148 L200 165 L235 148 L280 175 L322 245 L288 268 L268 240 L268 435 L132 435 L132 240 L112 268 L78 245 Z" fill="none" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M155 152 Q200 215 245 152" fill="none" stroke="currentColor" stroke-width="7"/>
+    <line x1="185" y1="230" x2="185" y2="270" stroke="currentColor" stroke-width="5"/>
+    <line x1="215" y1="230" x2="215" y2="270" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="0" y="0" width="400" height="500" filter="url(#n5)" opacity="0.5"/>
+  <rect x="24" y="24" width="112" height="30" rx="15" fill="#e8ff3a"/>
+  <text x="80" y="44" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="12" font-weight="900" fill="#0a0a0a" letter-spacing="1">380 GSM</text>
+  <text x="24" y="440" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#f6f3e8" letter-spacing="-0.5">GULLY GROOVE</text>
+  <text x="24" y="464" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#e8ff3a" letter-spacing="3">CREWNECK</text>
+  <text x="24" y="486" font-family="Arial, sans-serif" font-size="10" fill="#f6f3e8" opacity="0.55" letter-spacing="4">FITCHECK INDIA · DROP 07</text>
+</svg>

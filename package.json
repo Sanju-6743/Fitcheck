@@ -1,0 +1,24 @@
+{
+  "name": "fitcheck-india",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fitcheck India — high-performance streetwear ecommerce with secure admin dashboard",
+  "type": "module",
+  "engines": {
+    "node": "22.x || 24.x"
+  },
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "seed": "npm run seed -w server",
+    "assets": "node scripts/generate-assets.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

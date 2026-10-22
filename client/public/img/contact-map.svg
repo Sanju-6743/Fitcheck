@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340">
+  <rect width="720" height="340" rx="20" fill="#ebe7db"/>
+  <g stroke="#ddd8c9" stroke-width="10" fill="none">
+    <path d="M0 80 H720"/><path d="M0 170 H720"/><path d="M0 260 H720"/>
+    <path d="M120 0 V340"/><path d="M300 0 V340"/><path d="M480 0 V340"/><path d="M620 0 V340"/>
+  </g>
+  <g stroke="#c8ff00" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M0 170 H300 V340"/><path d="M480 0 V170 H720"/>
+  </g>
+  <circle cx="300" cy="170" r="34" fill="#0a0a0a" opacity="0.12"/>
+  <circle cx="300" cy="170" r="18" fill="#c8ff00" stroke="#0a0a0a" stroke-width="4"/>
+  <rect x="330" y="120" width="180" height="52" rx="12" fill="#0a0a0a"/>
+  <text x="350" y="142" font-family="Arial Black, Arial, sans-serif" font-size="13" font-weight="900" fill="#c8ff00">FITCHECK STUDIO</text>
+  <text x="350" y="160" font-family="Arial, sans-serif" font-size="11" fill="#f5f2eb">Veera Desai Rd, Andheri W</text>
+  <text x="24" y="318" font-family="Arial, sans-serif" font-size="11" fill="#7d7d74" letter-spacing="2">MUMBAI · MAHARASHTRA</text>
+</svg>

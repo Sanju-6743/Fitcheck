@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="720" height="540">
+  <defs>
+    <linearGradient id="lb" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#101010"/><stop offset="100%" stop-color="#242424"/></linearGradient>
+    <filter id="lbg"><feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/></filter>
+  </defs>
+  <rect width="720" height="540" rx="28" fill="url(#lb)"/>
+  <g opacity="0.9">
+    <rect x="48" y="70" width="190" height="400" rx="16" fill="#181818" stroke="#2e2e2e"/>
+    <circle cx="143" cy="170" r="42" fill="none" stroke="#c8ff00" stroke-width="5"/>
+    <path d="M95 300 Q143 240 191 300 L191 430 L95 430 Z" fill="none" stroke="#f5f2eb" stroke-width="5"/>
+    <text x="70" y="455" font-family="Arial Black, Arial, sans-serif" font-size="16" font-weight="900" fill="#f5f2eb">LOOK 01</text>
+  </g>
+  <g opacity="0.9">
+    <rect x="265" y="40" width="190" height="430" rx="16" fill="#141b14" stroke="#2a3a2a"/>
+    <path d="M310 160 L345 138 L380 155 L415 138 L445 160 L470 220 L448 240 L432 215 L432 400 L323 400 L323 215 L307 240 L285 220 Z" fill="none" stroke="#9dff5c" stroke-width="5" stroke-linejoin="round"/>
+    <text x="288" y="445" font-family="Arial Black, Arial, sans-serif" font-size="16" font-weight="900" fill="#9dff5c">LOOK 02</text>
+  </g>
+  <g opacity="0.9">
+    <rect x="482" y="70" width="190" height="400" rx="16" fill="#1a1208" stroke="#3a2a12"/>
+    <rect x="522" y="150" width="110" height="180" rx="12" fill="none" stroke="#ffb020" stroke-width="5"/>
+    <line x1="522" y1="200" x2="632" y2="200" stroke="#ffb020" stroke-width="4"/>
+    <text x="505" y="455" font-family="Arial Black, Arial, sans-serif" font-size="16" font-weight="900" fill="#ffb020">LOOK 03</text>
+  </g>
+  <rect width="720" height="540" rx="28" filter="url(#lbg)"/>
+  <text x="360" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#f5f2eb" opacity="0.5" letter-spacing="8">FITCHECK STUDIO · MUMBAI</text>
+</svg>

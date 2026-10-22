@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520">
+  <defs>
+    <linearGradient id="h1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1a1a1a"/><stop offset="100%" stop-color="#2a2a2a"/></linearGradient>
+    <linearGradient id="h2" x1="0" y1="1" x2="1" y2="0"><stop offset="0%" stop-color="#c8ff00"/><stop offset="100%" stop-color="#9dcc00"/></linearGradient>
+    <linearGradient id="h3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6ecbff"/><stop offset="100%" stop-color="#3a86b8"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2"/><feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.06 0"/></filter>
+  </defs>
+  <rect width="640" height="520" rx="28" fill="url(#h1)"/>
+  <circle cx="520" cy="90" r="130" fill="#c8ff00" opacity="0.12"/>
+  <circle cx="90" cy="440" r="110" fill="#ff4d24" opacity="0.12"/>
+  <g transform="rotate(-8 200 280)">
+    <rect x="90" y="140" width="210" height="270" rx="18" fill="#0f0f0f" stroke="#3a3a3a" stroke-width="2"/>
+    <path d="M130 200 L160 180 L195 200 L230 180 L260 200 L285 250 L262 268 L248 245 L248 375 L142 375 L142 245 L128 268 L105 250 Z" fill="none" stroke="#f5f2eb" stroke-width="6" stroke-linejoin="round"/>
+    <text x="112" y="400" font-family="Arial Black, Arial, sans-serif" font-size="16" font-weight="900" fill="#c8ff00">CHOLI RAGE</text>
+  </g>
+  <g transform="rotate(4 400 260)">
+    <rect x="330" y="100" width="230" height="290" rx="18" fill="#141b14" stroke="#2f3a2f" stroke-width="2"/>
+    <path d="M370 170 L405 148 L440 165 L475 148 L510 170 L540 235 L515 255 L500 230 L500 360 L380 360 L380 230 L365 255 L340 235 Z" fill="none" stroke="#f5f2eb" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M400 150 Q440 205 480 150" fill="none" stroke="#9dff5c" stroke-width="6"/>
+    <text x="352" y="380" font-family="Arial Black, Arial, sans-serif" font-size="15" font-weight="900" fill="#9dff5c">MIDNIGHT BAZAAR</text>
+  </g>
+  <g transform="rotate(-3 320 470)">
+    <rect x="220" y="400" width="240" height="86" rx="16" fill="#0c1220" stroke="#243050" stroke-width="2"/>
+    <text x="240" y="437" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="#6ecbff">SIGNAL BLACK</text>
+    <text x="240" y="462" font-family="Arial, sans-serif" font-size="12" fill="#f5f2eb" opacity="0.6" letter-spacing="3">CARGO · RIPSTOP</text>
+  </g>
+  <rect width="640" height="520" rx="28" filter="url(#grain)"/>
+  <rect x="24" y="24" width="118" height="30" rx="15" fill="#c8ff00"/>
+  <text x="83" y="44" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="12" font-weight="900" fill="#0a0a0a">DROP 07 LIVE</text>
+</svg>

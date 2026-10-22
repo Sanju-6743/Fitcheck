@@ -1,0 +1,6 @@
+export const PHONE_DISPLAY = '+91 87902 71257'
+export const PHONE_TEL = '+918790271257'
+export const PHONE_RAW = '8790271257'
+export const WHATSAPP_URL = 'https://wa.me/918790271257'
+export const EMAIL = 'sanjaymuthakana1@gmail.com'
+export const SUPPORT_HOURS = 'Mon–Sat · 10:00–19:00 IST'
